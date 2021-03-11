@@ -1,0 +1,11 @@
+:root {
+  --mixin-overflow-ellipsis: {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  };
+}
+
+.overflow-box{
+  @apply --mixin-overflow-ellipsis;
+}
